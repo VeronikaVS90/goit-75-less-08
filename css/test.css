@@ -1,0 +1,18 @@
+.section {
+  padding: 200px 0;
+  /* background-color: lightcoral; */
+  /* background-image: url('https://picsum.photos/id/203/1600/600');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; */
+  /* background-attachment: fixed; */
+  /* background-image: radial-gradient(at top left, gold 10%, violet 40%, blue 100%); */
+}
+
+/* .box {
+  margin: 60px auto 0;
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  box-shadow: 10px 20px 0px 10px gold, 20px 40px 0px 15px violet;
+} */
