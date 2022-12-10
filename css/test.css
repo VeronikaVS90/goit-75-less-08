@@ -1,18 +1,15 @@
-.section {
-  padding: 200px 0;
-  /* background-color: lightcoral; */
-  /* background-image: url('https://picsum.photos/id/203/1600/600');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain; */
-  /* background-attachment: fixed; */
-  /* background-image: radial-gradient(at top left, gold 10%, violet 40%, blue 100%); */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-/* .box {
-  margin: 60px auto 0;
-  width: 300px;
-  height: 300px;
+/* 
+.text::after {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
   background-color: brown;
-  box-shadow: 10px 20px 0px 10px gold, 20px 40px 0px 15px violet;
+  border-radius: 50%;
+  content: '';
 } */

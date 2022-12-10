@@ -27,8 +27,9 @@
       <div class="container">
         <div class="header-container">
           <nav class="header-nav">
-            <a href="/"> <img src="./images/logo.svg" alt="Awesome UI logo" /> </a>
-
+            <a href="/">
+              <img src="./images/logo.svg" alt="Awesome UI logo" />
+            </a>
             <ul class="header-menu">
               <li><a class="header-link" href="#">Benefits</a></li>
               <li><a class="header-link" href="#">Features</a></li>
@@ -36,7 +37,7 @@
               <li><a class="header-link" href="#">Team</a></li>
             </ul>
           </nav>
-          <button class="heder-button button" type="button">Register</button>
+          <button class="button button-small" type="button">Register</button>
         </div>
       </div>
     </header>
@@ -45,19 +46,24 @@
         <div class="container">
           <div class="hero-container">
             <div class="hero-content">
-              <h1 class="hero-title">Awesome User Interface is what we can apply</h1>
+              <h1 class="hero-title" id="hero-title">
+                Awesome User Interface is what we can apply
+              </h1>
               <p class="hero-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue et eros, pellentesque
                 et. Tristique ullamcorper ac pharetra in nisi sit vivamus lorem.
               </p>
-              <button class="button" type="button">Get started</button>
+              <button class="button" type="button">
+                Get started
+                <svg width="24" height="16">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
             </div>
-
             <img src="./images/hero-image.png" alt="Woman is playing tennis" />
           </div>
         </div>
       </section>
-
       <section class="section">
         <div class="container">
           <h2 class="heading-title">Advantages</h2>
@@ -71,7 +77,6 @@
           <ul>
             <li>
               <div class="advantage-card">
-                <!-- <img class="advantage-card-img" src="./images/smart-car.svg" alt="" /> -->
                 <svg class="advantage-card-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-smart-car"></use>
                 </svg>
@@ -83,24 +88,21 @@
             </li>
             <li>
               <div class="advantage-card">
-                <!-- <img src="./images/smart-car.svg" alt="" /> -->
-                <svg class="advantage-card-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-ship"></use>
-                </svg>
+                <img src="./images/smart-car.svg" alt="" />
                 <h3>Car Rental</h3>
                 <p>Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae</p>
               </div>
             </li>
             <li>
               <div class="advantage-card">
-                <!-- <img src="./images/smart-car.svg" alt="" /> -->
+                <img src="./images/smart-car.svg" alt="" />
                 <h3>Car Rental</h3>
                 <p>Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae</p>
               </div>
             </li>
             <li>
               <div class="advantage-card">
-                <!-- <img src="./images/smart-car.svg" alt="" /> -->
+                <img src="./images/smart-car.svg" alt="" />
                 <h3>Car Rental</h3>
                 <p>Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae</p>
               </div>
@@ -108,40 +110,41 @@
           </ul>
         </div>
       </section>
-
       <section class="section">
         <div class="container">
           <h2 class="heading-title">Features</h2>
           <p class="heading-subtitle">What we can apply</p>
           <ul class="features-list">
             <li class="features-item">
-              <h3>MOT consectet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+              <div class="feature-card">
+                <svg class="feature-card-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-python"></use>
+                </svg>
+                <h3>MOT consectet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+              </div>
             </li>
             <li class="features-item">
-              <h3>MOT consectet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+              <div class="feature-card">
+                <svg class="feature-card-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-iost"></use>
+                </svg>
+                <h3>MOT consectet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+              </div>
             </li>
             <li class="features-item">
-              <h3>MOT consectet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
-            </li>
-            <li class="features-item">
-              <h3>MOT consectet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
-            </li>
-            <li class="features-item">
-              <h3>MOT consectet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
-            </li>
-            <li class="features-item">
-              <h3>MOT consectet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+              <div class="feature-card">
+                <svg class="feature-card-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-stacks"></use>
+                </svg>
+                <h3>MOT consectet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-
       <section class="section">
         <div class="container">
           <img src="./images/about-us-image.jpg" alt="Team members are discussing project" />
@@ -153,10 +156,9 @@
             velit sceleris, commodo entum vitaefermentum vitae. Et velit sceleris nullam aliquet
             dignissim
           </p>
-          <button class="button" type="button">Get started</button>
+          <button type="button">Get started</button>
         </div>
       </section>
-
       <section class="section">
         <div class="container">
           <h2 class="heading-title">Our Team</h2>
@@ -164,24 +166,24 @@
           <ul>
             <li>
               <img src="#" alt="" />
-              <h3>CTO May & Baker</h3>
-              <p>Tayo Oshinuwa</p>
+              <p>CTO May & Baker</p>
+              <h3>Tayo Oshinuwa</h3>
               <blockquote>
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae“
               </blockquote>
             </li>
             <li>
               <img src="#" alt="" />
-              <h3>CTO May & Baker</h3>
-              <p>Tayo Oshinuwa</p>
+              <p>CTO May & Baker</p>
+              <h3>Tayo Oshinuwa</h3>
               <blockquote>
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae“
               </blockquote>
             </li>
             <li>
               <img src="#" alt="" />
-              <h3>CTO May & Baker</h3>
-              <p>Tayo Oshinuwa</p>
+              <p>CTO May & Baker</p>
+              <h3>Tayo Oshinuwa</h3>
               <blockquote>
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae“
               </blockquote>
@@ -192,23 +194,41 @@
     </main>
     <footer>
       <div class="container">
-        <a href="/"> <img src="./images/logo.svg" alt="Awesome UI logo" /> </a>
+        <a href="/">
+          <img src="./images/logo.svg" alt="Awesome UI logo" />
+        </a>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         <p>Copyright &copy; 2022 AWESOME</p>
         <p>All rights reserved</p>
         <address>
-          <ul>
-            <li>
-              <a href="#"></a>
+          <ul class="socials-list">
+            <li class="socials-item">
+              <a class="socials-link" href="#">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="#"></a>
+            <li class="socials-item">
+              <a class="socials-link" href="#">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-dribble"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="#"></a>
+            <li class="socials-item">
+              <a class="socials-link" href="#">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="#"></a>
+            <li class="socials-item">
+              <a class="socials-link" href="#">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </address>
